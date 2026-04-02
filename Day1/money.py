@@ -1,0 +1,6 @@
+amt = int(input("Please enter the amount of withdraw :"))
+print("100 notes = ",amt//100)
+print("50 notes = ",(amt % 100) // 50 )
+print("20 notes = ",(amt % 100) % 50 // 20 )
+print("10 notes = ",(amt % 100) % 50 // 10 )
+print("5 notes = ",(amt % 100) % 50 // 5 )
