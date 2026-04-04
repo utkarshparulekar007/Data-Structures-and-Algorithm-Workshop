@@ -1,0 +1,5 @@
+#how many types of arguments we can pass in function
+1. positional arguments
+2. keyword arguments
+3. default arguments
+4. variable number of argument/variable length argument

@@ -1,0 +1,9 @@
+# my_dict = {}
+# my_dict[1] = 1
+# my_dict['1'] = 2
+# my_dict[1.0] = 4
+# print(my_dict)
+# sum = 0
+# for i in my_dict:
+#     sum += my_dict[i]   
+# print(sum)
