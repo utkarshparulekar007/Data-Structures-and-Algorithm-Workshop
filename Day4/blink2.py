@@ -1,0 +1,15 @@
+# print('prashantjha77'.isalnum())
+# print('prashanjha'.isalpha())
+# print('777f'.isdigit())
+# print(''.islower())
+# print('PRASHANj'.isupper())
+# print('my name is prshant'.istitle())
+# print(''.istitle())
+# print(''.isspace())
+# print("Hello".startswith("He"))
+# print("Hello".endswith("lo"))
+
+
+print("Prashant".find("r"))
+print("Prashant".index("r"))
+print("Prashant jha".count("a"))

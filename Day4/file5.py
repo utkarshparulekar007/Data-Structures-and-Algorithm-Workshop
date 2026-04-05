@@ -1,0 +1,5 @@
+f1 = open("p.jpeg","rb")
+f2 = open("q.jpeg","wb")
+data = f1.read()
+f2.write(data)
+print("File copied")

@@ -1,0 +1,8 @@
+f = open("myfile.txt","w")
+print("File name:",f.name)
+print("File mode:",f.mode)
+print("readable:",f.readable())
+print("writable:",f.writable())
+print("file closed:",f.closed)
+f.close()
+print("file closed:",f.closed)
