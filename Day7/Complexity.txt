@@ -1,0 +1,74 @@
+Big O Notation ================================================================
+                                                                               
+O(1)     =     Constant          Accesing a specific element in an array       
+O(N)     =     Linear            Loop through array elements
+O(log N) =     Logarithmic       Find an element in sorted array
+O(N**2)  =     Quadratic         Looking at a very index in the array twice
+O(2**N)  =     Exponential       Double recursion in Fibonacci
+
+===============================================================================
+
+
+LOGARITHMIC 
+    array = [1,2,3,4,5]
+    for index in range(0,len(array),3)
+        print(array[index])
+
+
+QUADRATIC 
+    array = [1,2,3,4,5]
+    for x in array :
+        for y in array :
+            print(x,y)
+
+
+EXPONENTIAL 
+    def fiboncci(n) :
+    if n<=1:
+        return n 
+    return fiboncci(n-1)
+
+
+----------------------------------------------------------------------
+                            Time Complexity        Space Complxity
+Create stack                       O(1)                   O(1)
+Push                               O(1)                   O(1)
+Pop                                O(1)                   O(1)
+Peek                               O(1)                   O(1)
+isEmpty                            O(1)                   O(1)
+Delete entire Stack                O(1)                   O(1)
+----------------------------------------------------------------------
+
+
+
+There are two ways to implement the Stack :
+Array and linked list 
+
+Stack using List :
+     -Easy to implement
+     -Speed problem when it grows
+
+Stack using Linked List :
+     -Fast Performance
+     -Implementation is not easy
+
+
+
+----------------------------------------------------------------------
+                            Time Complexity        Space Complxity
+Create Queue                       O(1)                   O(1)
+Enqueue                            O(1)                   O(1)
+Dequeue                            O(1)                   O(1)
+Peek                               O(1)                   O(1)
+isEmpty                            O(1)                   O(1)
+Delete entire Stack                O(1)                   O(1)
+----------------------------------------------------------------------
+
+
+Queue using List :
+     -Easy to implement
+     -Speed problem when it grows
+
+Queue using Linked List :
+     -Fast Performance
+     -Implementation is not easy
